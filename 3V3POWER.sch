@@ -1,0 +1,249 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:tps54202
+LIBS:TPS54202-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L TPS54202 U1
+U 1 1 5931EE1A
+P 5700 3100
+F 0 "U1" H 5700 2800 60  0000 C CNN
+F 1 "TPS54202" H 5700 3400 60  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23-6" H 5700 3150 60  0001 C CNN
+F 3 "" H 5700 3150 60  0001 C CNN
+	1    5700 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C1
+U 1 1 5931EE7B
+P 4500 2850
+F 0 "C1" H 4525 2950 50  0000 L CNN
+F 1 "10uF" H 4525 2750 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 4538 2700 50  0001 C CNN
+F 3 "" H 4500 2850 50  0001 C CNN
+	1    4500 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C2
+U 1 1 5931EEA0
+P 4750 2850
+F 0 "C2" H 4775 2950 50  0000 L CNN
+F 1 "0.1uF" H 4775 2750 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 4788 2700 50  0001 C CNN
+F 3 "" H 4750 2850 50  0001 C CNN
+	1    4750 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C3
+U 1 1 5931EEEF
+P 6350 2950
+F 0 "C3" H 6375 3050 50  0000 L CNN
+F 1 "0.1uF" H 6375 2850 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 6388 2800 50  0001 C CNN
+F 3 "" H 6350 2950 50  0001 C CNN
+	1    6350 2950
+	0    1    1    0   
+$EndComp
+$Comp
+L L L1
+U 1 1 5931EF1A
+P 6700 3100
+F 0 "L1" V 6650 3100 50  0000 C CNN
+F 1 "10uH" V 6775 3100 50  0000 C CNN
+F 2 "Capacitors_SMD:C_1812" H 6700 3100 50  0001 C CNN
+F 3 "" H 6700 3100 50  0001 C CNN
+	1    6700 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C4
+U 1 1 5931EF55
+P 6950 2950
+F 0 "C4" H 6975 3050 50  0000 L CNN
+F 1 "22uF" H 6975 2850 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 6988 2800 50  0001 C CNN
+F 3 "" H 6950 2950 50  0001 C CNN
+	1    6950 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C5
+U 1 1 5931EF84
+P 7200 2950
+F 0 "C5" H 7225 3050 50  0000 L CNN
+F 1 "22uF" H 7225 2850 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 7238 2800 50  0001 C CNN
+F 3 "" H 7200 2950 50  0001 C CNN
+	1    7200 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 5931F03A
+P 7350 3650
+F 0 "R1" V 7430 3650 50  0000 C CNN
+F 1 "100K" V 7350 3650 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 7280 3650 50  0001 C CNN
+F 3 "" H 7350 3650 50  0001 C CNN
+	1    7350 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 5931F073
+P 7350 4050
+F 0 "R2" V 7430 4050 50  0000 C CNN
+F 1 "22.1K" V 7350 4050 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 7280 4050 50  0001 C CNN
+F 3 "" H 7350 4050 50  0001 C CNN
+	1    7350 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C6
+U 1 1 5931F0A2
+P 7150 3650
+F 0 "C6" H 7175 3750 50  0000 L CNN
+F 1 "56pF" H 7175 3550 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 7188 3500 50  0001 C CNN
+F 3 "" H 7150 3650 50  0001 C CNN
+	1    7150 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 2700 5250 2700
+Connection ~ 4750 2700
+Wire Wire Line
+	4250 3100 5250 3100
+Connection ~ 4750 3100
+Wire Wire Line
+	6150 2950 6200 2950
+Wire Wire Line
+	6500 2950 6550 2950
+Wire Wire Line
+	6550 2950 6550 3100
+Wire Wire Line
+	6550 3100 6150 3100
+Wire Wire Line
+	6850 3100 7650 3100
+Wire Wire Line
+	6950 2800 7500 2800
+Connection ~ 6950 3100
+Wire Wire Line
+	7350 3100 7350 3500
+Wire Wire Line
+	7350 3450 7150 3450
+Wire Wire Line
+	7150 3450 7150 3500
+Wire Wire Line
+	7150 3800 7150 3850
+Wire Wire Line
+	6150 3850 7350 3850
+Wire Wire Line
+	7350 3800 7350 3900
+Connection ~ 7350 3850
+Wire Wire Line
+	4900 4200 7500 4200
+Wire Wire Line
+	7500 4200 7500 2800
+Connection ~ 7350 4200
+Connection ~ 7200 2800
+Connection ~ 7150 3850
+Text HLabel 4250 2700 0    60   Input ~ 0
+VIN
+Text HLabel 4250 3100 0    60   Input ~ 0
+GND
+Text HLabel 7650 3100 2    60   Output ~ 0
+3V3
+Connection ~ 4500 3100
+Connection ~ 4500 2700
+Wire Wire Line
+	6150 3250 6150 3850
+$Comp
+L R R4
+U 1 1 5941CFB3
+P 5000 2850
+F 0 "R4" V 5080 2850 50  0000 C CNN
+F 1 "330K" V 5000 2850 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 4930 2850 50  0001 C CNN
+F 3 "" H 5000 2850 50  0001 C CNN
+	1    5000 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R5
+U 1 1 5941CFEA
+P 5000 3450
+F 0 "R5" V 5080 3450 50  0000 C CNN
+F 1 "21K" V 5000 3450 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 4930 3450 50  0001 C CNN
+F 3 "" H 5000 3450 50  0001 C CNN
+	1    5000 3450
+	1    0    0    -1  
+$EndComp
+Connection ~ 7200 3100
+Wire Wire Line
+	5000 3000 5000 3300
+Connection ~ 5000 2700
+Wire Wire Line
+	4900 3100 4900 4200
+Wire Wire Line
+	5000 3600 4900 3600
+Connection ~ 4900 3600
+Connection ~ 7350 3100
+Connection ~ 7350 3450
+Connection ~ 4900 3100
+Wire Wire Line
+	5000 3250 5250 3250
+Connection ~ 5000 3250
+Wire Wire Line
+	4500 3000 4500 3100
+Wire Wire Line
+	4750 3000 4750 3100
+Wire Wire Line
+	5250 2700 5250 2950
+$EndSCHEMATC
